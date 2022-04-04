@@ -1,0 +1,7 @@
+{
+    "API_KEYS":"your api keys",
+    "API_SECRET":"your api secret",
+    "ACCESS_TOKEN":"your access token",
+    "ACCESS_TOKEN_SECRET":"your access token scret",
+    "BEARER_TOKEN":"your bearer token"
+}
