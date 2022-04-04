@@ -86,12 +86,12 @@ Format:
 	if *env == "" || tweet == "" {
 		fmt.Println("args invalid error. Please set args.")
 		fmt.Println(`For example: 
-	go run Tweet.go -c API_Key.txt -t Tweet-Description
-	go run Tweet.go -c API_Key.txt -f tweet.txt
+	go run Tweet.go -c env.conf -t Tweet-Description
+	go run Tweet.go -c env.conf -f tweet.txt
 
 	with Image:
-	go run Tweet.go -c API_Key.txt -t Tweet-Description -i img.png
-	go run Tweet.go -c API_Key.txt -f tweet.txt -i img.jpg
+	go run Tweet.go -c env.conf -t Tweet-Description -i img.png
+	go run Tweet.go -c env.conf -f tweet.txt -i img.jpg
 	`)
 		os.Exit(ERR_CORD)
 	}
